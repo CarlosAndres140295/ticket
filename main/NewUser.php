@@ -1,6 +1,6 @@
 <div class="col-md-8 offset-md-2">
-                    <span class="anchor" id="formUserEdit"></span>
-                    <hr class="my-5">
+                    <!-- <span class="anchor" id="formUserEdit"></span> -->
+                    <hr class="my-1">
 
                     <!-- form user info -->
                     <div class="card card-outline-secondary">
