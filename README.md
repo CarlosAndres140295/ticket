@@ -1,4 +1,4 @@
-# ticket2
+# ticket
 Software de gestion de PQRS
 Estoy trabajando en este proyecto personal que permita lo siguiente:
 *Gestion de cliente.
