@@ -5,10 +5,26 @@
                     <!-- form user info -->
                     <div class="card card-outline-secondary">
                         <div class="card-header">
-                            <h3 class="mb-0">User Information</h3>
+                            <h3 class="mb-0">Informacion de cliente</h3>
                         </div>
                         <div class="card-body">
-                            <form class="form" role="form" autocomplete="off">
+                            <form class="form" role="form" autocomplete="off" id="form_cliente">
+
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Ingrese el nombre">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Ingrese el apellido">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Ingrese el telefono">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Ingrese el direccion">
+                                </div>
+                            </div>
+                            <br>
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label form-control-label">First name</label>
                                     <div class="col-lg-9">
