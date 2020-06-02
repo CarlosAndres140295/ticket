@@ -12,7 +12,7 @@
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuCliente" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clientes</a>
 			          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuCliente">
-				          <a class="dropdown-item" href="#">Agregar nuevo cliente <span><i class="fa fa-user-plus"></i></span></a>
+				          <a class="dropdown-item" href="#" id="AgregarCliente">Agregar nuevo cliente <span><i class="fa fa-user-plus"></i></span></a>
 				          <a class="dropdown-item" href="#">Ver listado de clientes <span><i class="fa fa-users"></i></span></a>
 				          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
 			        </div>
