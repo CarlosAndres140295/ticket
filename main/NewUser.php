@@ -1,6 +1,7 @@
-<div class="col-md-8 offset-md-2">
-                    <!-- <span class="anchor" id="formUserEdit"></span> -->
-                    <hr class="my-1">
+<div class="row">
+<div class="col p-1">
+                    <span class="anchor" id="formUserEdit"></span>
+                    <!-- <hr class="my-1"> -->
 
                     <!-- form user info -->
                     <div class="card card-outline-secondary">
@@ -11,23 +12,27 @@
                             <form class="form" role="form" autocomplete="off" id="form_cliente">
 
                             <div class="form-row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Ingrese el nombre">
+                                <div class="col-xs-12 col-sm-6 col-md-3 p-1">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre">
                                 </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Ingrese el apellido">
+                                <div class="col-xs-12 col-sm-6 col-md-3 p-1">
+                                <label for="nombre">Apellido</label>
+                                <input type="text" class="form-control" placeholder="Ingrese el apellido">
                                 </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Ingrese el telefono">
+                                <div class="col-xs-12 col-sm-6 col-md-3 p-1">
+                                <label for="nombre">Telefono</label>
+                                <input type="text" class="form-control" placeholder="Ingrese el telefono">
                                 </div>
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Ingrese el direccion">
+                                <div class="col-xs-12 col-sm-6 col-md-3 p-1">
+                                <label for="nombre">Direccion</label>
+                                <input type="text" class="form-control" placeholder="Ingrese el direccion">
                                 </div>
                             </div>
                             <br>
                                 <div class="form-group row">
-                                    <label class="col-lg-3 col-form-label form-control-label">First name</label>
-                                    <div class="col-lg-9">
+                                    <label class="col-lg-2 col-form-label form-control-label">First name</label>
+                                    <div class="col-lg-10">
                                         <input class="form-control" type="text" value="Jane">
                                     </div>
                                 </div>
@@ -88,11 +93,12 @@
                                         <input class="form-control" type="password" value="11111122333">
                                     </div>
                                 </div>
+                                <hr>
                                 <div class="form-group row">
                                     <label class="col-lg-3 col-form-label form-control-label"></label>
                                     <div class="col-lg-9">
-                                        <input type="reset" class="btn btn-secondary" value="Cancel">
-                                        <input type="button" class="btn btn-primary" value="Save Changes">
+                                        <input type="reset" class="btn btn-danger" value="Cancelar">
+                                        <input type="button" class="btn btn-success" value="Guardar">
                                     </div>
                                 </div>
                             </form>
@@ -102,3 +108,4 @@
 
                 </div>
                 <!--/col-->
+</div>

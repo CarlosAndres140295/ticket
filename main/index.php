@@ -17,13 +17,11 @@
 
      </div>
 
-     <div class="container-fluid">
-		<!-- <div class="container"> -->
+     <div class="container">
 			<div id="respuestas">
-				<br>
 				<?php include 'indicadores/indicadores.php' ?>
 			</div>
-		<!-- </div> -->
+
      </div>
 		<script src="../js/jquery.js"></script>
 		<!-- <script src="../js/popper.js"></script> -->

@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="col-xs-12 col-sm-3 p-1">
+	<div class="col-xs-12 col-sm-6 col-md-3 p-1">
 	<div class="card" >
 		<div class="card-header">
 			Clientes
@@ -11,7 +11,7 @@
 	  </div>
 	 </div>
 </div>
-<div class="col-xs-12 col-sm-3 p-1">
+<div class="col-xs-12 col-sm-6 col-md-3 p-1">
 	<div class="card" >
 		<div class="card-header">
 			Ticke abiertos
@@ -23,7 +23,7 @@
 	  </div>
 	 </div>
 </div>
-<div class="col-xs-12 col-sm-3 p-1">
+<div class="col-xs-12 col-sm-6 col-md-3 p-1">
 	<div class="card" >
 		<div class="card-header">
 			Ticket cerrdos
@@ -35,7 +35,7 @@
 	  </div>
 	 </div>
 </div>
-<div class="col-xs-12 col-sm-3 p-1">
+<div class="col-xs-12 col-sm-6 col-md-3 p-1">
 	<div class="card" >
 		<div class="card-header">
 			Usuarios del sistema
