@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col p-1">
+<div class="col">
                     <span class="anchor" id="formUserEdit"></span>
                     <!-- <hr class="my-1"> -->
 
@@ -20,11 +20,13 @@
                             <div class="form-row">
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
                                 <label for="nombre">Tipo de documento</label>
+                                <div id="respuesta_tipo_documento"> 
+                                </div>
                                 <select name="tipo_documento" id="tipo_documento" class="form-control">
                                     <option value="">Seleccionar</option>
-                                    <option value="C.C">Cedula de Ciudadania</option>
+                                   <!--  <option value="C.C">Cedula de Ciudadania</option>
                                     <option value="C.T">Cedula Extranjera</option>
-                                    <option value="NIT">NIT</option>
+                                    <option value="NIT">NIT</option> -->
                                 </select>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
@@ -149,3 +151,5 @@
                 </div>
                 <!--/col-->
 </div>
+
+<script src="js/app_newuser_autocomplete.js"></script>

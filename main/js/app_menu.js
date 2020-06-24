@@ -5,7 +5,7 @@
 
 function AgregarCliente() {
     const api=new XMLHttpRequest();
-    api.open('POST','NewUser.php',true);
+    api.open('POST','newuser.php',true);
     api.send();
 
     api.onreadystatechange=function() {
@@ -22,7 +22,7 @@ function AgregarCliente() {
 
 function ListarClientes() {
     const api=new XMLHttpRequest();
-    api.open('POST','ListClients.php',true);
+    api.open('POST','listclients.php',true);
     api.send();
 
     api.onreadystatechange=function() {
