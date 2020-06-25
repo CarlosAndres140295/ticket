@@ -2,15 +2,33 @@
 	header('Content-Type: application/json');
 
 	include '../../class/conexion.php';
-	include 'moduloclienteDAO.php';
+	include 'clienteDAO.php';
 
 	$conexion = new conexion();
 
-	$cliente=new moduloclienteDAO($conexion);
+	$cliente=new clienteDAO($conexion);
 
-	$valores=$cliente->ListarTipoDocumento();
+	$parametro=$_POST['parametro'];
 
-	echo json_encode($valores);
+	if ($parametro=='tipo_documento') {
+		# code...
+			$valores=$cliente->ListarTipoDocumento();
+
+			retornar($valores);
+	}
+
+		if ($parametro=='genero') {
+		# code...
+			$valores=$cliente->ListarGenero();
+
+			retornar($valores);
+	}
+
+	function retornar($valores)
+	{
+		# code...
+		echo json_encode($valores);
+	}
 	// echo ($valores);
 	// console.log($valores);
 	// exit();

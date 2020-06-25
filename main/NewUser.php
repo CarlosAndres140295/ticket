@@ -7,7 +7,7 @@
                     <div class="card card-outline-secondary">
                         <div class="card-header">
                         <!-- <h5 class="mb-1"> -->
-                            Nuevo cliente
+                            NUEVO CLIENTE
                         <!-- </h5> -->
                         </div>
                         <form class="form" role="form" autocomplete="off" id="form_cliente">
@@ -19,59 +19,52 @@
                         </div>
                             <div class="form-row">
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="nombre">Tipo de documento</label>
-                                <div id="respuesta_tipo_documento"> 
-                                </div>
+                                <label for="nombre">Tipo de documento<span style="color: red;">*</span></label>
+                                
                                 <select name="tipo_documento" id="tipo_documento" class="form-control">
-                                    <option value="">Seleccionar</option>
-                                   <!--  <option value="C.C">Cedula de Ciudadania</option>
-                                    <option value="C.T">Cedula Extranjera</option>
-                                    <option value="NIT">NIT</option> -->
+                                    <option value="">Seleccionar...</option>
                                 </select>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="documento">Documento</label>
-                                <input type="text" class="form-control" placeholder="" id="documento">
+                                <label for="documento">Documento<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="documento" name="documento">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="nombre">Nombre</label>
-                                <input type="text" class="form-control" placeholder="" id="nombre">
+                                <label for="nombre">Nombre<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="nombre" name="nombre">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="apellido">Apellido</label>
-                                <input type="text" class="form-control" placeholder="" id="apellido">
+                                <label for="apellido">Apellido<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="apellido" name="apellido">
                                 </div>
                             </div>
 
                             <div class="form-row">
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="genero">Genero</label>
-                                <select name="tipo_documento" id="tipo_documento" class="form-control" id="genero">
+                                <label for="genero">Genero<span style="color: red;">*</span></label>
+                                <select name="genero" id="genero" class="form-control" >
                                     <option value="">Seleccionar</option>
-                                    <option value="C.C">Hombre</option>
-                                    <option value="C.T">Mujer</option>
-                                    <option value="NIT">Empresa</option>
                                 </select>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="telefono">Telefono</label>
-                                <input type="text" class="form-control" placeholder="" id="telefono">
+                                <label for="telefono">Telefono<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="telefono" name="telefono">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="direccion">Direccion</label>
-                                <input type="text" class="form-control" placeholder="" id="direccion">
+                                <label for="direccion">Direccion<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="direccion" name="direccion">
                                 </div>
                                 <div class="col-xs-12 col-sm-6 col-md-3 p-1">
-                                <label for="email">E-mail</label>
-                                <input type="text" class="form-control" placeholder="" id="email">
+                                <label for="email">E-mail<span style="color: red;">*</span></label>
+                                <input type="text" class="form-control" placeholder="" id="email" name="email">
                                 </div>
                             </div>
-                            <br>
+                            <!-- <br> -->
                             <!-- DATOS DEL SERVICIO -->
-                            <div class>
-                            <h5 class="lead">Datos del servicio</h5>
+                         <!--    <div class>
+                            <h5 class="">Datos del servicio</h5>
                             <hr>
-                            </div>
+                            </div> -->
                                 <!-- <div class="form-group row">
                                     <label class="col-lg-2 col-form-label form-control-label">First name</label>
                                     <div class="col-lg-10">
@@ -140,7 +133,7 @@
                                     <label class="col-lg-3 col-form-label form-control-label"></label>
                                     <div class="col-lg-9">
                                         <input type="reset" class="btn btn-danger" value="Cancelar">
-                                        <input type="button" class="btn btn-success" value="Guardar">
+                                        <input type="button" class="btn btn-success" id="guardar_cliente" value="Guardar">
                                     </div>
                                 </div>
                             </form>
