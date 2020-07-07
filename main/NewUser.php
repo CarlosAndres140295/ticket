@@ -1,8 +1,7 @@
 <div class="row">
-<div class="col">
+	<div class="col">
                     <span class="anchor" id="formUserEdit"></span>
                     <!-- <hr class="my-1"> -->
-
                     <!-- form user info -->
                     <div class="card card-outline-secondary">
                         <div class="card-header">
@@ -144,5 +143,8 @@
                 </div>
                 <!--/col-->
 </div>
+
+
+
 
 <script src="js/app_newuser_autocomplete.js"></script>
